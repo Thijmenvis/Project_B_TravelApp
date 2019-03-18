@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TravelApp</string>
+    <string name="access_token">sk.eyJ1IjoiYW50b25pZWZpc2giLCJhIjoiY2p0ZXYzY2xxMDNiZTQzcXVtdWYwNzVvcCJ9.axK8guLbkTmLszGry7dILw</string>
 </resources>
