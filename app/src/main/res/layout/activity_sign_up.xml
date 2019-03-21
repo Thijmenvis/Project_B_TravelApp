@@ -92,7 +92,9 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_Password"
-        app:layout_constraintTop_toBottomOf="@+id/text_Slogan" />
+        app:layout_constraintTop_toBottomOf="@+id/text_Slogan"
+
+        tools:ignore="Autofill"/>
 
     <EditText
         android:id="@+id/editText_Email"
@@ -106,7 +108,9 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_Password"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Name" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_Name"
+
+        tools:ignore="Autofill"/>
 
     <EditText
         android:id="@+id/editText_Password"
@@ -120,7 +124,9 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_Password"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Email" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_Email"
+
+        tools:ignore="Autofill"/>
 
     <EditText
         android:id="@+id/editText_Birthday"
@@ -134,7 +140,9 @@
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_Password"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Password" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_Password"
+
+        tools:ignore="Autofill"/>
 
     <RadioGroup
         android:id="@+id/rg_Gender"
