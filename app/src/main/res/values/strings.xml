@@ -1,57 +1,55 @@
 <resources>
-    <string name="app_name">Prototype</string>
-    <string name="submitButton">Submit</string>
-    <string name="loginButton">Log In</string>
-    <string name="signUpButton">Sign Up</string>
-    <string name="appName">App Name</string>
-    <string name="slogan">- Catchy Slogan Maybe -</string>
-    <string name="or">Or</string>
-    <string name="appLogo">App Logo</string>
-    <string name="enterPassword">Enter Password</string>
-    <string name="enterEmail">Enter Email</string>
-    <string name="forgotPassword">Forgot Password?</string>
-
-    <string name="name">Name</string>
-    <string name="nameHint">Enter Name</string>
-    <string name="email">Email</string>
-    <string name="emailHint">Enter Email</string>
-    <string name="password">Password</string>
-    <string name="passwordHint">Enter Password</string>
-    <string name="Birthday">Birthday</string>
-    <string name="BirthdayHint">Enter Birthday</string>
-    <string name="Gender">Gender</string>
-    <string name="Female">Female</string>
-    <string name="Male">Male</string>
-
-    <string name="Oops">Oops</string>
-    <string name="Oops1">Enter your email address below and we\'ll send you a recovery message</string>
-
-
-
-    <string name="profileFriends">12\nFriends</string>
-    <string name="profileFollowers">23\nFollowers</string>
-    <string name="bio">Bio</string>
-    <string name="lorem">Donec augue enim, volutpat at ligula et, dictum laoreet sapien.
+    <string name="text_AppName">App Name</string>
+    <string name="text_Slogan">- Catchy Slogan Maybe -</string>
+    <string name="text_Or">Or</string>
+    <string name="text_ForgotPassword">Forgot Password?</string>
+    <string name="text_Name">Name</string>
+    <string name="text_Email">Email</string>
+    <string name="text_Password">Password</string>
+    <string name="text_Birthday">Birthday</string>
+    <string name="text_Gender">Gender</string>
+    <string name="text_Female">Female</string>
+    <string name="text_Male">Male</string>
+    <string name="text_Oops">Oops</string>
+    <string name="text_OopsText">Enter your email address below and we\'ll send you a recovery message</string>
+    <string name="text_ProfileFriends">12\nFriends</string>
+    <string name="text_ProfileFollowers">23\nFollowers</string>
+    <string name="text_Bio">Bio</string>
+    <string name="text_Lorem">Donec augue enim, volutpat at ligula et, dictum laoreet sapien.
         Sed maximus feugiat tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla eu mollis leo, eu elementum nisl.
         Curabitur cursus turpis nibh, egestas efficitur diam ts lorem</string>
+    <string name="text_JohnDoe">John Doe</string>
 
-    <string name="textJohnDoe">John Doe</string>
 
-    <string name="mapDescription">Map></string>
+    <!-- Hints -->
+    <string name="hint_NameHint">Enter Name</string>
+    <string name="hint_EmailHint">Enter Email</string>
+    <string name="hint_PasswordHint">Enter Password</string>
+    <string name="hint_BirthdayHint">Enter Birthday</string>
 
-    <string name="globeDescription">Globe Icon</string>
-    <string name="plusDescription">Plus Icon</string>
-    <string name="profileDescription">Profile Icon</string>
-    <string name="iconBarDescription">Icon Bar</string>
 
-    <string name="descriptionAvatarBackground">Profile Avatar Background</string>
-    <string name="descriptionAvatarImage">Profile Avatar Image</string>
-    <string name="descriptionBinocularsIcon">Binoculars Icon</string>
-    <string name="descriptionGearIcon">Gear Icon</string>
-    <string name="descriptionNotificationIcon">Notification Icon</string>
-    <string name="descriptionAddAvatarPictureIcon">Add Avatar Picture Icon</string>
-    <string name="descriptionNamePlate">Name Plate</string>
-    <string name="descriptionBioBackground">Bio White Background</string>
+    <!-- Button Strings -->
+    <string name="button_LoginButton">Log In</string>
+    <string name="button_SignUpButton">Sign Up</string>
+    <string name="button_SubmitButton">Submit</string>
+
+
+    <!-- Image Description Strings -->
+    <string name="description_AppLogo">App Logo</string>
+    <string name="description_ThoughtBubble">Thought Bubble</string>
+    <string name="description_MapImage">Map></string>
+    <string name="description_ToolbarMapIcon">Globe Icon</string>
+    <string name="description_ToolbarAddPictureIcon">Add Picture Icon</string>
+    <string name="description_ToolbarProfileIcon">Profile Icon</string>
+    <string name="description_Toolbar">Toolbar</string>
+    <string name="description_AvatarBackground">Profile Avatar Background</string>
+    <string name="description_AvatarImage">Profile Avatar Image</string>
+    <string name="description_BinocularsIcon">Binoculars Icon</string>
+    <string name="description_GearIcon">Gear Icon</string>
+    <string name="description_NotificationIcon">Notification Icon</string>
+    <string name="description_AddAvatarPictureIcon">Add Avatar Picture Icon</string>
+    <string name="description_NamePlate">Name Plate</string>
+    <string name="description_BioBackground">Bio White Background</string>
 
 
 </resources>
