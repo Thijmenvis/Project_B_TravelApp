@@ -15,6 +15,12 @@
         <item name="android:background">?android:attr/listDivider</item>
     </style>
 
+    <style name="rectangle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#272727</item>
+    </style>
+
     <style name="button" parent="@android:style/Widget.Button">
         <item name="android:gravity">center_vertical|center_horizontal</item>
         <item name="android:textColor">#FFFFFFFF</item>

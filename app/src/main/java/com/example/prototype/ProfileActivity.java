@@ -17,4 +17,14 @@ public class ProfileActivity extends AppCompatActivity {
         Intent intent = new Intent (this, MapActivity.class);
         startActivity(intent);
     }
+
+    public void goToGallery (View view){
+        Intent intent = new Intent (this, GalleryActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToSettings (View view){
+        Intent intent = new Intent (this, SettingsActivity.class);
+        startActivity(intent);
+    }
 }

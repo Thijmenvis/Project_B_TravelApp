@@ -17,4 +17,9 @@ public class MapActivity extends AppCompatActivity {
         Intent intent = new Intent (this, ProfileActivity.class);
         startActivity(intent);
     }
+
+    public void goToGallery (View view){
+        Intent intent = new Intent (this, GalleryActivity.class);
+        startActivity(intent);
+    }
 }

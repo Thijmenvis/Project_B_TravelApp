@@ -19,6 +19,7 @@
         Sed maximus feugiat tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla eu mollis leo, eu elementum nisl.
         Curabitur cursus turpis nibh, egestas efficitur diam ts lorem</string>
     <string name="text_JohnDoe">John Doe</string>
+    <string name="text_AddAPicture">Add a Picture</string>
 
 
     <!-- Hints -->
@@ -50,6 +51,14 @@
     <string name="description_AddAvatarPictureIcon">Add Avatar Picture Icon</string>
     <string name="description_NamePlate">Name Plate</string>
     <string name="description_BioBackground">Bio White Background</string>
+    <string name="description_settingsProfile">Change Personal Information Icon</string>
+    <string name="description_settingsLanguages">Languages Icon</string>
+    <string name="description_settingsPrivacy">Privacy Icon</string>
+    <string name="description_settingsNotifications">Notifications Icon</string>
+    <string name="description_settingsLocation">Location Icon</string>
+    <string name="description_settingsBlocked">Blocked Icon</string>
+    <string name="description_cameraIcon">Camera Icon</string>
+    <string name="description_galleryImage">Gallery Stock Image</string>
 
 
 </resources>
