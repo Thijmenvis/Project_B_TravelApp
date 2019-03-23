@@ -83,7 +83,7 @@
     <EditText
         android:id="@+id/editText_Name"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
@@ -93,13 +93,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_Password"
         app:layout_constraintTop_toBottomOf="@+id/text_Slogan"
+        android:background="@drawable/drawable_rounded_corners"
+        android:backgroundTint="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorGreyLight"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
 
         tools:ignore="Autofill"/>
 
     <EditText
         android:id="@+id/editText_Email"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
@@ -109,13 +115,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_Password"
         app:layout_constraintTop_toBottomOf="@+id/editText_Name"
+        android:background="@drawable/drawable_rounded_corners"
+        android:backgroundTint="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorGreyLight"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
 
         tools:ignore="Autofill"/>
 
     <EditText
         android:id="@+id/editText_Password"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
@@ -125,13 +137,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_Password"
         app:layout_constraintTop_toBottomOf="@+id/editText_Email"
+        android:background="@drawable/drawable_rounded_corners"
+        android:backgroundTint="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorGreyLight"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
 
         tools:ignore="Autofill"/>
 
     <EditText
         android:id="@+id/editText_Birthday"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
@@ -141,6 +159,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_Password"
         app:layout_constraintTop_toBottomOf="@+id/editText_Password"
+        android:background="@drawable/drawable_rounded_corners"
+        android:backgroundTint="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorGreyLight"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
 
         tools:ignore="Autofill"/>
 
@@ -151,7 +175,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:orientation="horizontal"
-        app:layout_constraintStart_toEndOf="@+id/text_Password"
+        app:layout_constraintStart_toStartOf="@+id/editText_Birthday"
         app:layout_constraintTop_toBottomOf="@+id/editText_Birthday">
 
         <RadioButton

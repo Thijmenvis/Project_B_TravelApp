@@ -8,19 +8,19 @@
 
     <View
         android:id="@+id/view_BackgroundRectangle"
-        android:layout_width="411dp"
+        android:layout_width="0dp"
 
         android:layout_height="0dp"
         android:layout_marginTop="84dp"
         android:layout_marginBottom="96dp"
-        android:background="@android:color/background_dark"
+        android:background="@color/colorGreyDarker"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView_AddAPicture"
+        android:id="@+id/text_AddAPicture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_AddAPicture"
@@ -31,79 +31,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/image_GalleryImage6"
-        android:layout_width="165dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:contentDescription="@string/description_galleryImage"
-        android:scaleType="fitXY"
-
-        app:layout_constraintBottom_toBottomOf="@+id/view_BackgroundRectangle"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_GalleryImage4"
-        app:layout_constraintVertical_bias="0.0"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/image_GalleryImage4"
-        android:layout_width="165dp"
-        android:layout_height="165dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:contentDescription="@string/description_galleryImage"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_GalleryImage2"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/image_GalleryImage3"
-        android:layout_width="165dp"
-        android:layout_height="165dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
-        android:contentDescription="@string/description_galleryImage"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_GalleryImage1"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/image_GalleryImage2"
-        android:layout_width="165dp"
-        android:layout_height="165dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:contentDescription="@string/description_galleryImage"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view_BackgroundRectangle"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/image_GalleryImage5"
-        android:layout_width="165dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
-        android:contentDescription="@string/description_galleryImage"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="@+id/view_BackgroundRectangle"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toBottomOf="@+id/image_GalleryImage3"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/image_GalleryImage1"
-        android:layout_width="165dp"
-        android:layout_height="165dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
-        android:contentDescription="@string/description_galleryImage"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view_BackgroundRectangle"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
         android:id="@+id/image_CameraIcon"
         android:layout_width="78dp"
         android:layout_height="78dp"
@@ -112,6 +39,47 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view_BackgroundRectangle"
-        app:srcCompat="@drawable/cameraIcon" />
+        app:srcCompat="@drawable/camera_icon" />
+
+    <ImageView
+        android:id="@+id/image_GalleryPlaceHolder1"
+        android:layout_width="440px"
+        android:layout_height="440px"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/description_galleryImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/image_GalleryPlaceHolder3"
+        android:layout_width="440px"
+        android:layout_height="440px"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/description_galleryImage"
+        app:layout_constraintStart_toStartOf="@+id/image_GalleryPlaceHolder1"
+        app:layout_constraintTop_toBottomOf="@+id/image_GalleryPlaceHolder1"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/image_GalleryPlaceHolder4"
+        android:layout_width="440px"
+        android:layout_height="440px"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/description_galleryImage"
+        app:layout_constraintEnd_toEndOf="@+id/image_GalleryPlaceHolder2"
+        app:layout_constraintTop_toBottomOf="@+id/image_GalleryPlaceHolder1"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/image_GalleryPlaceHolder2"
+        android:layout_width="440px"
+        android:layout_height="440px"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/description_galleryImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_GalleryPlaceHolder1"
+        app:srcCompat="@drawable/ic_launcher_background" />
 
 </android.support.constraint.ConstraintLayout>

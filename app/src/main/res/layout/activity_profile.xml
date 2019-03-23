@@ -20,15 +20,17 @@
 
         <ImageView
             android:id="@+id/image_Toolbar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="12dp"
+            android:layout_marginEnd="32dp"
             android:contentDescription="@string/description_Toolbar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/button_bar" />
+            app:srcCompat="@drawable/drawable_rounded_corners" />
 
         <ImageView
             android:id="@+id/image_ToolbarMap"
@@ -53,6 +55,7 @@
             android:clickable="true"
             android:contentDescription="@string/description_ToolbarAddPictureIcon"
             android:focusable="true"
+            android:onClick="goToGallery"
             app:layout_constraintBottom_toBottomOf="@+id/image_Toolbar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -74,23 +77,27 @@
 
         <ImageView
             android:id="@+id/image_AvatarBackground"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="208dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             android:contentDescription="@string/description_AvatarBackground"
             app:layout_constraintBottom_toBottomOf="@+id/image_Avatar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/image_Avatar"
-            app:srcCompat="@drawable/profile_back_square" />
+            app:srcCompat="@drawable/drawable_rounded_corners_smaller" />
 
         <ImageView
             android:id="@+id/image_Avatar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
             android:contentDescription="@string/description_AvatarImage"
-            app:layout_constraintEnd_toEndOf="@+id/image_AvatarBackground"
-            app:layout_constraintStart_toStartOf="@+id/image_AvatarBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image_ToolbarPicture"
             app:srcCompat="@drawable/avatar" />
 
@@ -99,46 +106,52 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="13dp"
+            android:clickable="true"
             android:contentDescription="@string/description_BinocularsIcon"
+            android:focusable="true"
+            android:onClick="goToMemories"
             app:layout_constraintStart_toStartOf="@+id/image_AvatarBackground"
-            app:layout_constraintTop_toTopOf="@+id/image_Avatar"
+            app:layout_constraintTop_toTopOf="@+id/image_AvatarBackground"
             app:srcCompat="@drawable/binoculars_icon" />
 
         <ImageView
             android:id="@+id/image_Gear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:clickable="true"
             android:contentDescription="@string/description_GearIcon"
             android:focusable="true"
             android:onClick="goToSettings"
-            app:layout_constraintBottom_toBottomOf="@+id/image_Binoculars"
             app:layout_constraintEnd_toEndOf="@+id/image_AvatarBackground"
-            app:layout_constraintTop_toTopOf="@+id/image_Binoculars"
+            app:layout_constraintTop_toTopOf="@+id/image_AvatarBackground"
             app:srcCompat="@drawable/gear_icon" />
 
         <ImageView
             android:id="@+id/image_NotificationIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
             android:contentDescription="@string/description_NotificationIcon"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/image_Gear"
-            app:layout_constraintStart_toStartOf="@+id/image_Gear"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/image_AvatarBackground"
+            app:layout_constraintEnd_toEndOf="@+id/image_AvatarBackground"
             app:srcCompat="@drawable/notification_icon" />
 
         <ImageView
             android:id="@+id/image_AddProfilePictureIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
             android:contentDescription="@string/description_AddAvatarPictureIcon"
-            app:layout_constraintBottom_toBottomOf="@+id/image_NotificationIcon"
-            app:layout_constraintEnd_toEndOf="@+id/image_Binoculars"
-            app:layout_constraintStart_toStartOf="@+id/image_Binoculars"
-            app:layout_constraintTop_toTopOf="@+id/image_NotificationIcon"
+            android:focusable="true"
+            android:onClick="goToGallery"
+            app:layout_constraintBottom_toBottomOf="@+id/image_AvatarBackground"
+            app:layout_constraintStart_toStartOf="@+id/image_AvatarBackground"
             app:srcCompat="@drawable/add_icon" />
 
         <ImageView
@@ -158,14 +171,15 @@
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
             android:adjustViewBounds="false"
-            android:contentDescription="@string/description_BioBackground"
+            android:background="@color/colorWhite"
+            android:contentDescription="@string/description_Background"
             android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_Friends"
-            app:srcCompat="@drawable/bio_back_box" />
+            app:srcCompat="@drawable/drawable_square_corners" />
 
         <TextView
             android:id="@+id/text_JohnDoe"

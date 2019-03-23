@@ -8,15 +8,17 @@
 
     <ImageView
         android:id="@+id/image_Toolbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
         android:contentDescription="@string/description_Toolbar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/button_bar" />
+        app:srcCompat="@drawable/drawable_rounded_corners" />
 
     <ImageView
         android:id="@+id/image_ToolbarMap"
@@ -74,4 +76,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_Toolbar"
         app:srcCompat="@drawable/map_placeholder" />
+
 </android.support.constraint.ConstraintLayout>

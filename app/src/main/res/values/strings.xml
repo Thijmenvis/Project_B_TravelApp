@@ -20,6 +20,14 @@
         Curabitur cursus turpis nibh, egestas efficitur diam ts lorem</string>
     <string name="text_JohnDoe">John Doe</string>
     <string name="text_AddAPicture">Add a Picture</string>
+    <string name="text_Settings">Settings</string>
+    <string name="text_ChangePersonalInformation">Change Personal Information</string>
+    <string name="text_Languages">Languages</string>
+    <string name="text_Privacy">Privacy</string>
+    <string name="text_Notifications">Notifications</string>
+    <string name="text_Location">Location</string>
+    <string name="text_Blocked">Blocked</string>
+    <string name="text_MyMemories">My Memories</string>
 
 
     <!-- Hints -->
@@ -50,7 +58,7 @@
     <string name="description_NotificationIcon">Notification Icon</string>
     <string name="description_AddAvatarPictureIcon">Add Avatar Picture Icon</string>
     <string name="description_NamePlate">Name Plate</string>
-    <string name="description_BioBackground">Bio White Background</string>
+    <string name="description_Background">White Background</string>
     <string name="description_settingsProfile">Change Personal Information Icon</string>
     <string name="description_settingsLanguages">Languages Icon</string>
     <string name="description_settingsPrivacy">Privacy Icon</string>

@@ -27,4 +27,9 @@ public class ProfileActivity extends AppCompatActivity {
         Intent intent = new Intent (this, SettingsActivity.class);
         startActivity(intent);
     }
+
+    public void goToMemories (View view){
+        Intent intent = new Intent (this, MemoriesActivity.class);
+        startActivity(intent);
+    }
 }
