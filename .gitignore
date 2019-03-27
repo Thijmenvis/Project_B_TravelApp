@@ -1,13 +1,20 @@
-*.iml
+#
+
+# gradle folder
 .gradle
-/local.properties
+
+# idea folder
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# others
+*.iml
 .DS_Store
 /build
 /captures
 .externalNativeBuild
+/local.properties
