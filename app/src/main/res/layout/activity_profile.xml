@@ -10,12 +10,6 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         tools:context=".MapActivity">
 
         <ImageView
@@ -78,28 +72,17 @@
         <ImageView
             android:id="@+id/image_AvatarBackground"
             android:layout_width="0dp"
-            android:layout_height="208dp"
+            android:layout_height="0dp"
             android:layout_marginStart="20dp"
+            android:layout_marginTop="31dp"
             android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
             android:contentDescription="@string/description_AvatarBackground"
-            app:layout_constraintBottom_toBottomOf="@+id/image_Avatar"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/image_Avatar"
-            app:srcCompat="@drawable/drawable_rounded_corners_smaller" />
-
-        <ImageView
-            android:id="@+id/image_Avatar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            android:contentDescription="@string/description_AvatarImage"
+            app:layout_constraintBottom_toTopOf="@+id/text_JohnDoe"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image_ToolbarPicture"
-            app:srcCompat="@drawable/avatar" />
+            app:srcCompat="@drawable/drawable_rounded_corners_smaller" />
 
         <ImageView
             android:id="@+id/image_Binoculars"
@@ -120,12 +103,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="28dp"
             android:clickable="true"
             android:contentDescription="@string/description_GearIcon"
             android:focusable="true"
             android:onClick="goToSettings"
-            app:layout_constraintEnd_toEndOf="@+id/image_AvatarBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_Avatar"
             app:layout_constraintTop_toTopOf="@+id/image_AvatarBackground"
             app:srcCompat="@drawable/gear_icon" />
 
@@ -149,7 +133,6 @@
             android:clickable="true"
             android:contentDescription="@string/description_AddAvatarPictureIcon"
             android:focusable="true"
-            android:onClick="goToGallery"
             app:layout_constraintBottom_toBottomOf="@+id/image_AvatarBackground"
             app:layout_constraintStart_toStartOf="@+id/image_AvatarBackground"
             app:srcCompat="@drawable/add_icon" />
@@ -158,8 +141,9 @@
             android:id="@+id/image_NamePlate"
             android:layout_width="156dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
+            android:layout_marginBottom="66dp"
             android:contentDescription="@string/description_NamePlate"
+            app:layout_constraintBottom_toTopOf="@+id/image_BioBackground"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image_Avatar"
@@ -178,7 +162,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_Friends"
+            app:layout_constraintTop_toBottomOf="@+id/image_NamePlate"
             app:srcCompat="@drawable/drawable_square_corners" />
 
         <TextView
@@ -241,7 +225,6 @@
         <View
             android:id="@+id/view_BioLineLeft"
             android:layout_width="0dp"
-
             android:layout_height="1dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
@@ -262,5 +245,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/text_BioHeader"
             app:layout_constraintTop_toTopOf="@+id/text_BioHeader" />
+
+        <ImageView
+            android:id="@+id/image_Avatar"
+            android:layout_width="205dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="113dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="22dp"
+            app:layout_constraintBottom_toTopOf="@+id/image_NamePlate"
+            app:layout_constraintEnd_toStartOf="@+id/image_Gear"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars[0]" />
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>

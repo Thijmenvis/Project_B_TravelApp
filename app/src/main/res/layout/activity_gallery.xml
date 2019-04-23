@@ -33,53 +33,26 @@
     <ImageView
         android:id="@+id/image_CameraIcon"
         android:layout_width="78dp"
-        android:layout_height="78dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="9dp"
         android:contentDescription="@string/description_cameraIcon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view_BackgroundRectangle"
+        app:layout_constraintTop_toBottomOf="@+id/Choose_gallery"
         app:srcCompat="@drawable/camera_icon" />
 
-    <ImageView
-        android:id="@+id/image_GalleryPlaceHolder1"
-        android:layout_width="440px"
-        android:layout_height="440px"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="100dp"
-        android:contentDescription="@string/description_galleryImage"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_background" />
-
-    <ImageView
-        android:id="@+id/image_GalleryPlaceHolder3"
-        android:layout_width="440px"
-        android:layout_height="440px"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/description_galleryImage"
-        app:layout_constraintStart_toStartOf="@+id/image_GalleryPlaceHolder1"
-        app:layout_constraintTop_toBottomOf="@+id/image_GalleryPlaceHolder1"
-        app:srcCompat="@drawable/ic_launcher_background" />
-
-    <ImageView
-        android:id="@+id/image_GalleryPlaceHolder4"
-        android:layout_width="440px"
-        android:layout_height="440px"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/description_galleryImage"
-        app:layout_constraintEnd_toEndOf="@+id/image_GalleryPlaceHolder2"
-        app:layout_constraintTop_toBottomOf="@+id/image_GalleryPlaceHolder1"
-        app:srcCompat="@drawable/ic_launcher_background" />
-
-    <ImageView
-        android:id="@+id/image_GalleryPlaceHolder2"
-        android:layout_width="440px"
-        android:layout_height="440px"
-        android:layout_marginEnd="16dp"
-        android:contentDescription="@string/description_galleryImage"
+    <Button
+        android:id="@+id/Choose_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="329dp"
+        android:layout_marginBottom="195dp"
+        android:text="Choose from gallery"
+        app:layout_constraintBottom_toTopOf="@+id/image_CameraIcon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/image_GalleryPlaceHolder1"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
