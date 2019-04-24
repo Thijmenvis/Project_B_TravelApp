@@ -258,6 +258,6 @@
             app:layout_constraintEnd_toStartOf="@+id/image_Gear"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars[0]" />
+            tools:srcCompat="@tools:sample/avatars" />
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>
