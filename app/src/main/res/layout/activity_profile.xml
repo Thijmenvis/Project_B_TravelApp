@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".MapActivity">
+
+        <ImageView
+            android:id="@+id/image_Toolbar"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/description_Toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/drawable_rounded_corners" />
+
+        <ImageView
+            android:id="@+id/image_ToolbarMap"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:clickable="true"
+            android:contentDescription="@string/description_ToolbarMapIcon"
+            android:focusable="true"
+            android:onClick="goToMap"
+            app:layout_constraintBottom_toBottomOf="@+id/image_Toolbar"
+            app:layout_constraintStart_toStartOf="@+id/image_Toolbar"
+            app:layout_constraintTop_toTopOf="@+id/image_Toolbar"
+            app:srcCompat="@drawable/globe_icon" />
+
+        <ImageView
+            android:id="@+id/image_ToolbarPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:contentDescription="@string/description_ToolbarAddPictureIcon"
+            android:focusable="true"
+            android:onClick="goToGallery"
+            app:layout_constraintBottom_toBottomOf="@+id/image_Toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/image_Toolbar"
+            app:srcCompat="@drawable/plus_icon" />
+
+        <ImageView
+            android:id="@+id/image_ToolbarProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@string/description_ToolbarProfileIcon"
+            app:layout_constraintBottom_toBottomOf="@+id/image_ToolbarPicture"
+            app:layout_constraintEnd_toEndOf="@+id/image_Toolbar"
+            app:layout_constraintTop_toTopOf="@+id/image_ToolbarPicture"
+            app:srcCompat="@drawable/profile_icon" />
+
+        <ImageView
+            android:id="@+id/image_AvatarBackground"
+            android:layout_width="0dp"
+            android:layout_height="208dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/description_AvatarBackground"
+            app:layout_constraintBottom_toBottomOf="@+id/image_Avatar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/image_Avatar"
+            app:srcCompat="@drawable/drawable_rounded_corners_smaller" />
+
+        <ImageView
+            android:id="@+id/image_Avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/description_AvatarImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_ToolbarPicture"
+            app:srcCompat="@drawable/avatar" />
+
+        <ImageView
+            android:id="@+id/image_Binoculars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="13dp"
+            android:clickable="true"
+            android:contentDescription="@string/description_BinocularsIcon"
+            android:focusable="true"
+            android:onClick="goToMemories"
+            app:layout_constraintStart_toStartOf="@+id/image_AvatarBackground"
+            app:layout_constraintTop_toTopOf="@+id/image_AvatarBackground"
+            app:srcCompat="@drawable/binoculars_icon" />
+
+        <ImageView
+            android:id="@+id/image_Gear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:clickable="true"
+            android:contentDescription="@string/description_GearIcon"
+            android:focusable="true"
+            android:onClick="goToSettings"
+            app:layout_constraintEnd_toEndOf="@+id/image_AvatarBackground"
+            app:layout_constraintTop_toTopOf="@+id/image_AvatarBackground"
+            app:srcCompat="@drawable/gear_icon" />
+
+        <ImageView
+            android:id="@+id/image_NotificationIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/description_NotificationIcon"
+            app:layout_constraintBottom_toBottomOf="@+id/image_AvatarBackground"
+            app:layout_constraintEnd_toEndOf="@+id/image_AvatarBackground"
+            app:srcCompat="@drawable/notification_icon" />
+
+        <ImageView
+            android:id="@+id/image_AddProfilePictureIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:contentDescription="@string/description_AddAvatarPictureIcon"
+            android:focusable="true"
+            android:onClick="goToGallery"
+            app:layout_constraintBottom_toBottomOf="@+id/image_AvatarBackground"
+            app:layout_constraintStart_toStartOf="@+id/image_AvatarBackground"
+            app:srcCompat="@drawable/add_icon" />
+
+        <ImageView
+            android:id="@+id/image_NamePlate"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/description_NamePlate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_Avatar"
+            app:srcCompat="@drawable/name_plate" />
+
+        <ImageView
+            android:id="@+id/image_BioBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="false"
+            android:background="@color/colorWhite"
+            android:contentDescription="@string/description_Background"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_Friends"
+            app:srcCompat="@drawable/drawable_square_corners" />
+
+        <TextView
+            android:id="@+id/text_JohnDoe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_JohnDoe"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/image_NamePlate"
+            app:layout_constraintEnd_toEndOf="@+id/image_NamePlate"
+            app:layout_constraintStart_toStartOf="@+id/image_NamePlate"
+            app:layout_constraintTop_toTopOf="@+id/image_NamePlate" />
+
+        <TextView
+            android:id="@+id/text_Friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/text_ProfileFriends"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_NamePlate" />
+
+        <TextView
+            android:id="@+id/text_Followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/text_ProfileFollowers"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/text_Friends"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/text_Friends" />
+
+        <TextView
+            android:id="@+id/text_BioHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_Bio"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/image_BioBackground" />
+
+        <TextView
+            android:id="@+id/text_Bio_Text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/text_Lorem"
+            app:layout_constraintBottom_toBottomOf="@+id/image_BioBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_BioHeader" />
+
+        <View
+            android:id="@+id/view_BioLineLeft"
+            android:layout_width="0dp"
+
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/text_BioHeader"
+            app:layout_constraintEnd_toStartOf="@+id/text_BioHeader"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/text_BioHeader" />
+
+        <View
+            android:id="@+id/view_BioLineRight"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/text_BioHeader"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_BioHeader"
+            app:layout_constraintTop_toTopOf="@+id/text_BioHeader" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
