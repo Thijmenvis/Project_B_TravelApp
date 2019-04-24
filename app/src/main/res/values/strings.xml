@@ -1,4 +1,7 @@
 <resources>
+    <string name="app_name">TravelApp</string>
+    <string name="access_token">sk.eyJ1IjoiYW50b25pZWZpc2giLCJhIjoiY2p0ZXYzY2xxMDNiZTQzcXVtdWYwNzVvcCJ9.axK8guLbkTmLszGry7dILw</string>
+
     <string name="text_AppName">App Name</string>
     <string name="text_Slogan">- Catchy Slogan Maybe -</string>
     <string name="text_Or">Or</string>
