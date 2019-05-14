@@ -2,6 +2,7 @@ package com.example.prototype;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Camera;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
@@ -20,14 +21,17 @@ public class ProfileActivity extends AppCompatActivity {
     Uri imageURI;
 
     TextView textView;
+    TextView textView2;
     AlertDialog dialog;
+    AlertDialog dialog2;
     EditText editText;
-
+    EditText editText2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
 
         textView = (TextView)findViewById(R.id.text_Bio_Text);
         dialog = new AlertDialog.Builder(this).create();
@@ -49,6 +53,30 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View v) {
                 editText.setText(textView.getText());
                 dialog.show();
+
+            }
+        });
+
+        textView2 = (TextView)findViewById(R.id.tx_JohnDoe);
+        dialog2 = new AlertDialog.Builder(this).create();
+        editText2 = new EditText(this);
+
+        dialog2.setTitle("Change name");
+        dialog2.setView(editText2);
+
+        dialog2.setButton(DialogInterface.BUTTON_POSITIVE, "Save Changes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                textView2.setText(editText2.getText());
+
+            }
+        });
+
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editText2.setText(textView2.getText());
+                dialog2.show();
 
             }
         });
