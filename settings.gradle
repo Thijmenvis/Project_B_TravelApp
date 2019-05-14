@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':xmpcore-5.1.0', ':metadata-extractor-2.11.0'
