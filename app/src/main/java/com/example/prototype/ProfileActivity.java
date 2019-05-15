@@ -17,6 +17,7 @@ import android.widget.TextView;
 public class ProfileActivity extends AppCompatActivity {
 
     Button button;
+    ImageView imageView;
     private static final int PICK_IMAGE = 100;
     Uri imageURI;
 
@@ -81,6 +82,7 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
 
+        imageView = (ImageView)findViewById(R.id.image_Avatar);
         button = (Button)findViewById(R.id.btn_ChangePic);
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -95,11 +97,14 @@ public class ProfileActivity extends AppCompatActivity {
         Intent gallery = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
         startActivityForResult(gallery, PICK_IMAGE);
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode, resultCode, data);
         if(resultCode == RESULT_OK && requestCode == PICK_IMAGE){
             imageURI = data.getData();
+            imageView.setImageURI(imageURI);
+
         }
     }
 
