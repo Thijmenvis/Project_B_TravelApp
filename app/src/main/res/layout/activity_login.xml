@@ -118,7 +118,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="8dp"
-        android:onClick="goToMap"
+        android:onClick="goToProfile"
         android:text="@string/button_LoginButton"
         app:layout_constraintBottom_toTopOf="@+id/text_ForgotPassword"
         app:layout_constraintEnd_toEndOf="parent"

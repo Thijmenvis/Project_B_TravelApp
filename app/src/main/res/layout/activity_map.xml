@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapActivity">
+    tools:context=".MapActivity"> <!-- if stuff breaks maybe change back to .MainActivity -->
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        mapbox:layout_constraintBottom_toBottomOf="parent"
+        mapbox:layout_constraintTop_toBottomOf="@+id/image_Toolbar"
+        mapbox:mapbox_cameraTargetLat="51.9244"
+        mapbox:mapbox_cameraTargetLng="4.4777"
+        mapbox:mapbox_cameraZoom="11"/>
+
 
     <ImageView
         android:id="@+id/image_Toolbar"
@@ -14,11 +27,11 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
         android:contentDescription="@string/description_Toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/drawable_rounded_corners" />
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        mapbox:layout_constraintHorizontal_bias="0.492"
+        mapbox:layout_constraintStart_toStartOf="parent"
+        mapbox:layout_constraintTop_toTopOf="parent"
+        mapbox:srcCompat="@drawable/drawable_rounded_corners" />
 
     <ImageView
         android:id="@+id/image_ToolbarMap"
@@ -30,10 +43,10 @@
         android:clickable="true"
         android:contentDescription="@string/description_ToolbarMapIcon"
         android:focusable="true"
-        app:layout_constraintBottom_toBottomOf="@+id/image_Toolbar"
-        app:layout_constraintStart_toStartOf="@+id/image_Toolbar"
-        app:layout_constraintTop_toTopOf="@+id/image_Toolbar"
-        app:srcCompat="@drawable/globe_icon" />
+        mapbox:layout_constraintBottom_toBottomOf="@+id/image_Toolbar"
+        mapbox:layout_constraintStart_toStartOf="@+id/image_Toolbar"
+        mapbox:layout_constraintTop_toTopOf="@+id/image_Toolbar"
+        mapbox:srcCompat="@drawable/globe_icon" />
 
     <ImageView
         android:id="@+id/image_ToolbarPicture"
@@ -43,11 +56,11 @@
         android:contentDescription="@string/description_ToolbarAddPictureIcon"
         android:focusable="true"
         android:onClick="goToGallery"
-        app:layout_constraintBottom_toBottomOf="@+id/image_Toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/image_Toolbar"
-        app:srcCompat="@drawable/plus_icon" />
+        mapbox:layout_constraintBottom_toBottomOf="@+id/image_Toolbar"
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        mapbox:layout_constraintStart_toStartOf="parent"
+        mapbox:layout_constraintTop_toTopOf="@+id/image_Toolbar"
+        mapbox:srcCompat="@drawable/plus_icon" />
 
     <ImageView
         android:id="@+id/image_ToolbarProfile"
@@ -56,25 +69,11 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="4dp"
-        android:clickable="true"
         android:contentDescription="@string/description_ToolbarProfileIcon"
-        android:focusable="true"
         android:onClick="goToProfile"
-        app:layout_constraintBottom_toBottomOf="@+id/image_ToolbarPicture"
-        app:layout_constraintEnd_toEndOf="@+id/image_Toolbar"
-        app:layout_constraintTop_toTopOf="@+id/image_ToolbarPicture"
-        app:srcCompat="@drawable/profile_icon" />
-
-    <ImageView
-        android:id="@+id/image_Map"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/description_MapImage"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_Toolbar"
-        app:srcCompat="@drawable/map_placeholder" />
+        mapbox:layout_constraintBottom_toBottomOf="@+id/image_ToolbarPicture"
+        mapbox:layout_constraintEnd_toEndOf="@+id/image_Toolbar"
+        mapbox:layout_constraintTop_toTopOf="@+id/image_ToolbarPicture"
+        mapbox:srcCompat="@drawable/profile_icon" />
 
 </android.support.constraint.ConstraintLayout>

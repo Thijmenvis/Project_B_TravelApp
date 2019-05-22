@@ -68,5 +68,10 @@
     <string name="description_cameraIcon">Camera Icon</string>
     <string name="description_galleryImage">Gallery Stock Image</string>
 
+    <!-- Mapbox -->
+    <string name="access_token">pk.eyJ1Ijoia3VueW9taSIsImEiOiJjanZmM3Z0YXUwMzZsNDRtN2ZnZTRibGgxIn0.cCiixvU4TEMi697gIFmPqw</string>
+
+    <string name="user_location_permission_explanation">Something about permissions, replace later</string>
+    <string name="user_location_permission_not_granted">Location Permission not granted</string>
 
 </resources>
