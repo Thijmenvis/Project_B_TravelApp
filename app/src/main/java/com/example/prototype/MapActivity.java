@@ -13,6 +13,9 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 // Classes needed to initialize the map
 import com.mapbox.mapboxsdk.Mapbox;
+import com.mapbox.mapboxsdk.annotations.Marker;
+import com.mapbox.mapboxsdk.annotations.MarkerOptions;
+import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.mapboxsdk.maps.MapView;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
@@ -38,7 +41,7 @@ import com.mapbox.mapboxsdk.location.modes.RenderMode;
  * Use the Mapbox Core Library to listen to device location updates
  */
 public class MapActivity extends AppCompatActivity implements
-        OnMapReadyCallback, PermissionsListener {
+        OnMapReadyCallback, PermissionsListener, MapboxMap.OnMapClickListener {
     // Variables needed to initialize a map
     private MapboxMap mapboxMap;
     private MapView mapView;
@@ -50,6 +53,9 @@ public class MapActivity extends AppCompatActivity implements
     private long DEFAULT_MAX_WAIT_TIME = DEFAULT_INTERVAL_IN_MILLISECONDS * 5;
     // Variables needed to listen to location updates
     private MainActivityLocationCallback callback = new MainActivityLocationCallback(this);
+
+    // Markers / Annotations
+    private Marker destinationMarker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +76,7 @@ public class MapActivity extends AppCompatActivity implements
     @Override
     public void onMapReady(@NonNull final MapboxMap mapboxMap) {
         this.mapboxMap = mapboxMap;
+        mapboxMap.addOnMapClickListener(this);
 
         mapboxMap.setStyle(Style.MAPBOX_STREETS,
                 new Style.OnStyleLoaded() {
@@ -250,6 +257,12 @@ public class MapActivity extends AppCompatActivity implements
     public void onLowMemory() {
         super.onLowMemory();
         mapView.onLowMemory();
+    }
+
+    @Override
+    public boolean onMapClick(@NonNull LatLng point) {
+        destinationMarker = mapboxMap.addMarker(new MarkerOptions().position(point));
+        return false;
     }
 
     public void goToProfile (View view){

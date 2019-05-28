@@ -16,6 +16,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    // The Annotation Plugin requires Java 8 usage
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -29,5 +34,8 @@ dependencies {
 
     // Mapbox dependencies
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:7.4.0'
+
+    // Annotations
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v7:0.6.0'
 
 }
