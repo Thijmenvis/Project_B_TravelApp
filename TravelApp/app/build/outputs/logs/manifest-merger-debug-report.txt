@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cdc7ba62b79312c0ea6bda67dd148b4e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\51e6b5c26a27e8bdf1852ee618dc0002\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ec9c5a3efa08e059816c295c1b00fcb8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1cae57594207fe2c5135179ba39e5f1c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\192506e55cdd6dcb2ddcefca8039e733\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\99e8070d331cb7cce9529b20c304b1e0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3ac357625763c6cdc47d5c5859b6f8a4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\afc129ae58f5831e7c196bd3811f6bef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\69336e6ae3d561be25a836727fa165bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ee4edbe3060492acd7c14163cd9f0d10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c5db970ea2e3d8c4bee78f1e4e8ee4c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3138b4b63e02ab181421e6d51868e931\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\be3c183bcfd63881673db53af203e9fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\06255e7a3cadc24b0d7bbee1e15d5d86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\91b83324c9a6b48362fcdd2a25869050\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\38cdf9a19100baf8ff33eb800546d34a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\347f85f7effbe9b7868ebc8d0ad16718\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fb0c1565382ad7b20b97efba3ac0bc9e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7cff3259bfaeb3ebda6200d3fe8b62d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\20ac4c2a67e238e38c0c459f71f5a147\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\54ab79a903eaf0fee64d1201ec8b29c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c6eaeb75ccf1eeca1037ea58a84d1661\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0ab5f8104eea2a0d4861a1cd6d4cf02b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b28635f225adc54bb53bccbe1210715\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a738116e4d108af995f1fafc874ec408\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\05b6eddf95cdd0ed36592540fff98bb1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9b8d8c855c356bba2dc3fc92d3ce18c4\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\51e6b5c26a27e8bdf1852ee618dc0002\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\51e6b5c26a27e8bdf1852ee618dc0002\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\38cdf9a19100baf8ff33eb800546d34a\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\38cdf9a19100baf8ff33eb800546d34a\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\347f85f7effbe9b7868ebc8d0ad16718\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\347f85f7effbe9b7868ebc8d0ad16718\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\38cdf9a19100baf8ff33eb800546d34a\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.travelapp.MainActivity
+ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cdc7ba62b79312c0ea6bda67dd148b4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cdc7ba62b79312c0ea6bda67dd148b4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\51e6b5c26a27e8bdf1852ee618dc0002\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\51e6b5c26a27e8bdf1852ee618dc0002\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ec9c5a3efa08e059816c295c1b00fcb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ec9c5a3efa08e059816c295c1b00fcb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1cae57594207fe2c5135179ba39e5f1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1cae57594207fe2c5135179ba39e5f1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\192506e55cdd6dcb2ddcefca8039e733\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\192506e55cdd6dcb2ddcefca8039e733\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\99e8070d331cb7cce9529b20c304b1e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\99e8070d331cb7cce9529b20c304b1e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3ac357625763c6cdc47d5c5859b6f8a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3ac357625763c6cdc47d5c5859b6f8a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\afc129ae58f5831e7c196bd3811f6bef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\afc129ae58f5831e7c196bd3811f6bef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\69336e6ae3d561be25a836727fa165bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\69336e6ae3d561be25a836727fa165bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ee4edbe3060492acd7c14163cd9f0d10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ee4edbe3060492acd7c14163cd9f0d10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c5db970ea2e3d8c4bee78f1e4e8ee4c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c5db970ea2e3d8c4bee78f1e4e8ee4c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3138b4b63e02ab181421e6d51868e931\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3138b4b63e02ab181421e6d51868e931\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\be3c183bcfd63881673db53af203e9fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\be3c183bcfd63881673db53af203e9fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\06255e7a3cadc24b0d7bbee1e15d5d86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\06255e7a3cadc24b0d7bbee1e15d5d86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\91b83324c9a6b48362fcdd2a25869050\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\91b83324c9a6b48362fcdd2a25869050\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\38cdf9a19100baf8ff33eb800546d34a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\38cdf9a19100baf8ff33eb800546d34a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\347f85f7effbe9b7868ebc8d0ad16718\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\347f85f7effbe9b7868ebc8d0ad16718\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fb0c1565382ad7b20b97efba3ac0bc9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fb0c1565382ad7b20b97efba3ac0bc9e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7cff3259bfaeb3ebda6200d3fe8b62d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7cff3259bfaeb3ebda6200d3fe8b62d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\20ac4c2a67e238e38c0c459f71f5a147\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\20ac4c2a67e238e38c0c459f71f5a147\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\54ab79a903eaf0fee64d1201ec8b29c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\54ab79a903eaf0fee64d1201ec8b29c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c6eaeb75ccf1eeca1037ea58a84d1661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c6eaeb75ccf1eeca1037ea58a84d1661\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0ab5f8104eea2a0d4861a1cd6d4cf02b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0ab5f8104eea2a0d4861a1cd6d4cf02b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b28635f225adc54bb53bccbe1210715\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b28635f225adc54bb53bccbe1210715\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a738116e4d108af995f1fafc874ec408\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a738116e4d108af995f1fafc874ec408\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\05b6eddf95cdd0ed36592540fff98bb1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\05b6eddf95cdd0ed36592540fff98bb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9b8d8c855c356bba2dc3fc92d3ce18c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kalej\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9b8d8c855c356bba2dc3fc92d3ce18c4\AndroidManifest.xml:20:5-44
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\documenten\GitHub\Project_B_TravelApp\TravelApp\app\src\main\AndroidManifest.xml
