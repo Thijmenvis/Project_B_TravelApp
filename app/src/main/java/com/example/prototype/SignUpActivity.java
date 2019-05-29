@@ -13,11 +13,13 @@ public class SignUpActivity extends AppCompatActivity {
     private EditText Uname, Email, Password;
     private Button SignUp;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
         setupUIViews();
+
 
         SignUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +36,7 @@ public class SignUpActivity extends AppCompatActivity {
         Password = (EditText)findViewById(R.id.editText_Password);
         Email = (EditText)findViewById(R.id.editText_Email);
         SignUp = (Button)findViewById(R.id.button_SignUp);
+
     }
 
     private Boolean validate(){
@@ -43,7 +46,7 @@ public class SignUpActivity extends AppCompatActivity {
         String password = Password.getText().toString();
         String email = Email.getText().toString();
 
-        if(name.isEmpty() && password.isEmpty() && email.isEmpty()) {
+        if(name.isEmpty() || password.isEmpty() || email.isEmpty()) {
             Toast.makeText(this, "Please fill in", Toast.LENGTH_SHORT).show();
         }else{
             result = true;

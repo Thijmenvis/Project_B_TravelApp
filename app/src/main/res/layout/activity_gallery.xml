@@ -30,21 +30,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/image_CameraIcon"
-        android:layout_width="78dp"
-        android:layout_height="78dp"
-        android:contentDescription="@string/description_cameraIcon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view_BackgroundRectangle"
-        app:srcCompat="@drawable/camera_icon" />
-
     <Button
         android:id="@+id/button_2"
-        android:layout_width="116dp"
-        android:layout_height="96dp"
+        android:layout_width="95dp"
+        android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -52,20 +41,17 @@
         android:text="Picture"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view_BackgroundRectangle"
-        app:layout_constraintVertical_bias="0.533" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="262dp"
-        android:layout_height="190dp"
+        android:layout_width="423dp"
+        android:layout_height="413dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/image_CameraIcon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/view_BackgroundRectangle"
         app:layout_constraintTop_toTopOf="@+id/view_BackgroundRectangle"

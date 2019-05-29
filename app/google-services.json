@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211896447660",
+    "firebase_url": "https://loginandregristation.firebaseio.com",
+    "project_id": "loginandregristation",
+    "storage_bucket": "loginandregristation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211896447660:android:15bbb700cddec33c",
+        "android_client_info": {
+          "package_name": "com.example.prototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211896447660-mq3smj5aiv9u4321sm0joq0gid97brad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfuRUQEl6djsCrlwQMSzFiCprtPDWF9wE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211896447660-mq3smj5aiv9u4321sm0joq0gid97brad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

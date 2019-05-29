@@ -2,6 +2,8 @@ package com.example.prototype;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Camera;
 import android.net.Uri;
 import android.provider.MediaStore;
@@ -104,6 +106,7 @@ public class ProfileActivity extends AppCompatActivity {
         if(resultCode == RESULT_OK && requestCode == PICK_IMAGE){
             imageURI = data.getData();
             imageView.setImageURI(imageURI);
+
 
         }
     }
