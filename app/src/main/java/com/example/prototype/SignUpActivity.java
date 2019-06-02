@@ -3,57 +3,63 @@ package com.example.prototype;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.InputFilter;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 public class SignUpActivity extends AppCompatActivity {
-
-    private EditText Uname, Email, Password;
-    private Button SignUp;
-
+    DatabaseHelper db;
+    EditText editText_Email, editText_Password, editText_Password2;
+    Button button_SignUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        setupUIViews();
-
-
-        SignUp.setOnClickListener(new View.OnClickListener() {
+        db = new DatabaseHelper(this);
+        editText_Email=(EditText)findViewById(R.id.editText_Email);
+        editText_Password=(EditText)findViewById(R.id.editText_Password);
+        editText_Password2=(EditText)findViewById(R.id.editText_Password2);
+        button_SignUp=(Button)findViewById(R.id.button_SignUp);
+        button_SignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(validate()){
+                String s1 = editText_Email.getText().toString();
+                String s2 = editText_Password.getText().toString();
+                String s3 = editText_Password2.getText().toString();
+                if(s1.equals("")||s2.equals("")||s3.equals("")){
+                    Toast.makeText(getApplicationContext(), "Please fill in", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    if(s2.equals(s3)){
+                        Boolean chkemail = db.chkemail(s1);
+                        if(chkemail==true){
+                            Boolean insert = db.insert(s1,s2);
+                            if(insert==true){
+                                Toast.makeText(getApplicationContext(),"Registration completed!", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(SignUpActivity.this, LoginActivity.class);
+                                startActivity(intent);
+
+                            }
+                        }
+                        else{
+                            Toast.makeText(getApplicationContext(), "Email already exists", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(), "Passwords do not match", Toast.LENGTH_SHORT).show();
+
+                    }
 
                 }
+
             }
         });
     }
 
-    private void setupUIViews(){
-        Uname = (EditText)findViewById(R.id.editText_Name);
-        Password = (EditText)findViewById(R.id.editText_Password);
-        Email = (EditText)findViewById(R.id.editText_Email);
-        SignUp = (Button)findViewById(R.id.button_SignUp);
 
-    }
-
-    private Boolean validate(){
-        Boolean result = false;
-
-        String name = Uname.getText().toString();
-        String password = Password.getText().toString();
-        String email = Email.getText().toString();
-
-        if(name.isEmpty() || password.isEmpty() || email.isEmpty()) {
-            Toast.makeText(this, "Please fill in", Toast.LENGTH_SHORT).show();
-        }else{
-            result = true;
-        }
-
-        return result;
-    }
 
     public void goToMain (View view){
         Intent intent = new Intent (this, MainActivity.class);
