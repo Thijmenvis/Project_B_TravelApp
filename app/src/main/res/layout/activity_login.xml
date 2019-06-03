@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:fontFamily="sans-serif"
-        android:text="TravelApp"
+        android:text="@string/text_AppName"
         android:textSize="36sp"
         android:typeface="sans"
         android:visibility="visible"
@@ -26,9 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:layout_marginBottom="14dp"
-        android:text="The most fun way to travel"
-        app:layout_constraintBottom_toTopOf="@+id/image_Logo"
+        android:text="@string/text_Slogan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_AppName" />
@@ -49,25 +47,24 @@
 
     <ImageView
         android:id="@+id/image_Logo"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="220dp"
         android:background="@drawable/sunset_background"
         android:contentDescription="@string/description_AppLogo"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_Slogan"
         app:srcCompat="@drawable/palm_silhouette"
-        tools:srcCompat="@drawable/palm_silhouette"
-        app:layout_constraintDimensionRatio="1:1" />
+        tools:srcCompat="@drawable/palm_silhouette" />
 
     <EditText
-        android:id="@+id/editText_Password"
+        android:id="@+id/editText_Email"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
@@ -89,7 +86,7 @@
         tools:ignore="Autofill" />
 
     <EditText
-        android:id="@+id/editText_Password2"
+        android:id="@+id/editText_Password"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
@@ -108,7 +105,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toBottomOf="@+id/editText_Password"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Email"
         tools:ignore="Autofill" />
 
     <Button
@@ -124,14 +121,6 @@
         app:layout_constraintBottom_toTopOf="@+id/text_ForgotPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="1dp" />
 
 
 </android.support.constraint.ConstraintLayout>

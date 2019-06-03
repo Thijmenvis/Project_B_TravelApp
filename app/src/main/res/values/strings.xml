@@ -1,21 +1,20 @@
 <resources>
-    <string name="text_AppName">App Name</string>
-    <string name="text_Slogan">- Catchy Slogan Maybe -</string>
+    <string name="text_AppName">TravelApp</string>
+    <string name="text_Slogan">The most fun way to travel!</string>
     <string name="text_Or">Or</string>
     <string name="text_ForgotPassword">Forgot Password?</string>
     <string name="text_Name">Name</string>
     <string name="text_Email">Email</string>
     <string name="text_Password">Password</string>
-    <string name="text_Birthday">Birthday</string>
-    <string name="text_Gender">Gender</string>
-    <string name="text_Female">Female</string>
-    <string name="text_Male">Male</string>
+    <string name="text_Password2">Confirm Password</string>
     <string name="text_Oops">Oops</string>
     <string name="text_OopsText">Enter your email address below and we\'ll send you a recovery message</string>
     <string name="text_ProfileFriends">12\nFriends</string>
     <string name="text_ProfileFollowers">23\nFollowers</string>
     <string name="text_Bio">Bio</string>
     <string name="text_Lorem">Donec augurk enim, volutpat at ligula et, dictum laoreet sapien.
+        Sed maximus feugiat tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla eu mollis leo, eu elementum nisl.
+        Curabitur cursus turpis nibh, egestas efficitur diam ts lorem Donec augurk enim, volutpat at ligula et, dictum laoreet sapien.
         Sed maximus feugiat tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla eu mollis leo, eu elementum nisl.
         Curabitur cursus turpis nibh, egestas efficitur diam ts lorem</string>
     <string name="text_JohnDoe">John Doe</string>
@@ -31,11 +30,9 @@
 
 
     <!-- Hints -->
-    <string name="hint_NameHint">Enter Name</string>
     <string name="hint_EmailHint">Enter Email</string>
     <string name="hint_PasswordHint">Enter Password</string>
-    <string name="hint_BirthdayHint">Enter Birthday</string>
-
+    <string name="hint_ConfirmHint">Confirm Password</string>
 
     <!-- Button Strings -->
     <string name="button_LoginButton">Log In</string>
@@ -73,5 +70,4 @@
 
     <string name="user_location_permission_explanation">Something about permissions, replace later</string>
     <string name="user_location_permission_not_granted">Location Permission not granted</string>
-
 </resources>
