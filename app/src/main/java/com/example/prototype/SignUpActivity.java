@@ -19,7 +19,7 @@ public class SignUpActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up);
         db = new DatabaseHelper(this);
         editText_Email=(EditText)findViewById(R.id.editText_Email);
-        editText_Password=(EditText)findViewById(R.id.editText_Email);
+        editText_Password=(EditText)findViewById(R.id.editText_Password);
         editText_Password2=(EditText)findViewById(R.id.editText_ConfirmPassword);
         button_SignUp=(Button)findViewById(R.id.button_SignUp);
         button_SignUp.setOnClickListener(new View.OnClickListener() {
