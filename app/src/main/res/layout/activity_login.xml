@@ -12,9 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:fontFamily="sans-serif"
-        android:text="@string/text_AppName"
+        android:text="TravelApp"
         android:textSize="36sp"
         android:typeface="sans"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="14dp"
-        android:text="@string/text_Slogan"
+        android:text="The most fun way to travel"
         app:layout_constraintBottom_toTopOf="@+id/image_Logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +67,7 @@
         app:layout_constraintDimensionRatio="1:1" />
 
     <EditText
-        android:id="@+id/editText_Email"
+        android:id="@+id/editText_Password"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
@@ -88,7 +89,7 @@
         tools:ignore="Autofill" />
 
     <EditText
-        android:id="@+id/editText_Password"
+        android:id="@+id/editText_Password2"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
@@ -107,7 +108,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toBottomOf="@+id/editText_Email"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Password"
         tools:ignore="Autofill" />
 
     <Button
@@ -123,6 +124,14 @@
         app:layout_constraintBottom_toTopOf="@+id/text_ForgotPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
 
 
 </android.support.constraint.ConstraintLayout>
