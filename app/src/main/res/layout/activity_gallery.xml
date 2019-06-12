@@ -30,21 +30,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_2"
-        android:layout_width="95dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Picture"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view_BackgroundRectangle"
-        app:layout_constraintVertical_bias="0.0" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="423dp"
@@ -56,5 +41,13 @@
         app:layout_constraintStart_toStartOf="@+id/view_BackgroundRectangle"
         app:layout_constraintTop_toTopOf="@+id/view_BackgroundRectangle"
         app:srcCompat="@drawable/drawable_square_corners" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="152dp"
+        android:layout_height="80dp"
+        android:text="Take picture"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="573dp" />
 
 </android.support.constraint.ConstraintLayout>

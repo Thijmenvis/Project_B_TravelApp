@@ -33,6 +33,7 @@ public class GalleryActivity extends AppCompatActivity {
                 startActivityForResult(intent, 0);
 
 
+
             }
         });
     }

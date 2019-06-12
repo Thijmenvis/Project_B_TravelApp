@@ -22,10 +22,9 @@
         android:id="@+id/text_Slogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="@string/text_Slogan"
+        android:text="'Best travel app ever made'"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_AppName" />
 
@@ -33,16 +32,15 @@
         android:id="@+id/text_Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:text="@string/text_Email"
         android:textSize="24sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText_Email"
-        app:layout_constraintStart_toStartOf="@+id/text_Password2" />
+        app:layout_constraintStart_toStartOf="@+id/text_Password" />
 
     <TextView
-        android:id="@+id/text_Password2"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
+        android:id="@+id/text_Password"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
         android:layout_marginStart="24dp"
         android:text="@string/text_Password"
         android:textSize="24sp"
@@ -50,12 +48,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/text_Password2"
+        android:id="@+id/text_Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:text="Password 2"
-        android:textSize="24sp"
+        android:text="Password (again)"
+        android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText_Password2"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -76,7 +74,7 @@
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorGreyLight"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/text_Password2"
+        app:layout_constraintStart_toEndOf="@+id/text_Password"
         app:layout_constraintTop_toBottomOf="@+id/text_Slogan"
 
         tools:ignore="Autofill" />
@@ -98,7 +96,7 @@
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorGreyLight"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/text_Password2"
+        app:layout_constraintStart_toEndOf="@+id/text_Password"
         app:layout_constraintTop_toBottomOf="@+id/editText_Email"
 
         tools:ignore="Autofill" />
@@ -108,22 +106,23 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/drawable_rounded_corners"
+        android:backgroundTint="@color/colorBlack"
         android:ems="10"
         android:hint="@string/hint_PasswordHint"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/text_Password2"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Password"
-        android:background="@drawable/drawable_rounded_corners"
-        android:backgroundTint="@color/colorBlack"
-        android:textColor="@color/colorWhite"
-        android:textColorHint="@color/colorGreyLight"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorGreyLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/text_Password"
 
-        tools:ignore="Autofill"/>
+        app:layout_constraintTop_toBottomOf="@+id/editText_Password"
+        tools:ignore="Autofill" />
 
     <Button
         android:id="@+id/button_SignUp"

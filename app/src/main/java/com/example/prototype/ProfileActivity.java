@@ -7,6 +7,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.Camera;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -94,7 +96,10 @@ public class ProfileActivity extends AppCompatActivity {
 
             }
         });
+        ImageView imageView = (ImageView) findViewById(R.id.image_Avatar);
+
     }
+
     private void openGallery(){
         Intent gallery = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
         startActivityForResult(gallery, PICK_IMAGE);
