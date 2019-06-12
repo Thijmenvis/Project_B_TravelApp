@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "HRO",
+        "capital": "Project les met mijn favoriete leraren :)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.483864903450012,
+          51.91720067681145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Naast de school",
+        "capital": "Dronken man stond te dansen naast chinese touristen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.482003450393677,
+          51.91760765378882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Den Haag",
+        "capital": "De beste stad van nederland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.307155609130859,
+          52.075285904832334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "O'Donoghues Bar",
+        "capital": "Lekkere biertjes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.26220703125,
+          53.30462107510271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Vakantie!",
+        "capital": "Eindelijk klaar met jaar 1 en op vakantie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.30840873718262,
+          -20.301727053852865
+        ]
+      }
+    }
+  ]
+}

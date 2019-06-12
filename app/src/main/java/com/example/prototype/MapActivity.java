@@ -270,8 +270,9 @@ public class MapActivity extends AppCompatActivity implements
         startActivity(intent);
     }
 
-    public void goToGallery (View view){
-        Intent intent = new Intent (this, GalleryActivity.class);
+    // Delete Later, just for testing
+    public void goMap2 (View view){
+        Intent intent = new Intent (this, InfoWindowSymbolLayerActivity.class);
         startActivity(intent);
     }
 }

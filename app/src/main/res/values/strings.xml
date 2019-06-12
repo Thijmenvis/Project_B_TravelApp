@@ -70,4 +70,45 @@
 
     <string name="user_location_permission_explanation">Something about permissions, replace later</string>
     <string name="user_location_permission_not_granted">Location Permission not granted</string>
+
+    <!-- GeoJSON delete probably -->
+    <string name="geoJsonString">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#e10000",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.483864903450012,
+          51.91720067681145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#00b8fd",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.481241703033447,
+          51.918236310161866
+        ]
+      }
+    }
+  ]
+}</string>
+
+    <!-- Infowindow SymbolLayer -->
+    <string name="capital">Description: %1$s</string>
+    <string name="tap_on_marker_instruction">Tap on a marker</string>
 </resources>
