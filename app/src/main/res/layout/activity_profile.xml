@@ -18,6 +18,7 @@
         app:layout_constraintVertical_bias="1.0"
         tools:context=".MapActivity">
 
+
         <ImageView
             android:id="@+id/image_AvatarBackground"
             android:layout_width="338dp"
@@ -31,6 +32,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/drawable_rounded_corners_smaller" />
+
 
         <ImageView
             android:id="@+id/image_Binoculars"
@@ -134,8 +136,10 @@
             android:text="@string/text_Lorem"
             app:layout_constraintBottom_toBottomOf="@+id/image_BioBackground"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_BioHeader" />
+            app:layout_constraintTop_toBottomOf="@+id/text_BioHeader"
+            app:layout_constraintVertical_bias="1.0" />
 
         <View
             android:id="@+id/view_BioLineLeft"
@@ -187,15 +191,15 @@
 
         <ImageButton
             android:id="@+id/imageButton5"
-            android:layout_width="40dp"
-            android:layout_height="42dp"
+            android:layout_width="45dp"
+            android:layout_height="49dp"
             android:layout_marginStart="48dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/image_Avatar"
+            app:layout_constraintBottom_toTopOf="@+id/view_BioLineLeft"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image_Binoculars"
-            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintVertical_bias="0.648"
             app:srcCompat="@android:drawable/ic_lock_power_off" />
 
     </android.support.constraint.ConstraintLayout>
