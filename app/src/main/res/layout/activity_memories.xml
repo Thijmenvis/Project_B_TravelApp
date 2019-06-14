@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/drawable_square_corners" />
 
     <ImageView
@@ -49,8 +49,8 @@
 
     <ImageView
         android:id="@+id/image_Placeholder1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:contentDescription="@string/description_galleryImage"
@@ -60,8 +60,8 @@
 
     <ImageView
         android:id="@+id/image_Placeholder2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:contentDescription="@string/description_galleryImage"
@@ -71,8 +71,8 @@
 
     <ImageView
         android:id="@+id/image_Placeholder3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:contentDescription="@string/description_galleryImage"
@@ -131,4 +131,53 @@
         app:layout_constraintStart_toEndOf="@+id/image_Placeholder1"
         app:layout_constraintTop_toTopOf="@+id/image_Placeholder3"
         app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_choosphoto"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="8dp"
+        android:text="ChoosePhoto"
+        app:layout_constraintBottom_toBottomOf="@+id/image_Placeholder1"
+        app:layout_constraintEnd_toStartOf="@+id/image_Placeholder1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_Placeholder1"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <Button
+        android:id="@+id/btn_choosphoto2"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="8dp"
+        android:text="ChoosePhoto"
+        app:layout_constraintBottom_toBottomOf="@+id/image_Placeholder2"
+        app:layout_constraintEnd_toStartOf="@+id/image_Placeholder2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_Placeholder2"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <Button
+        android:id="@+id/btn_choosphoto3"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="8dp"
+        android:text="ChoosePhoto"
+        app:layout_constraintBottom_toBottomOf="@+id/image_Placeholder3"
+        app:layout_constraintEnd_toStartOf="@+id/image_Placeholder3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_Placeholder3"
+        app:layout_constraintVertical_bias="0.49" />
+
 </android.support.constraint.ConstraintLayout>
