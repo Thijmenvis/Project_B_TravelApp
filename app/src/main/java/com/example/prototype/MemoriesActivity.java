@@ -98,7 +98,7 @@ public class MemoriesActivity extends AppCompatActivity {
             dialog = new AlertDialog.Builder(this).create();
             editText = new EditText(this);
 
-            dialog.setTitle("Edit bio");
+            dialog.setTitle("Add text");
             dialog.setView(editText);
 
             dialog.setButton(DialogInterface.BUTTON_POSITIVE, "Save Changes", new DialogInterface.OnClickListener() {
@@ -122,7 +122,7 @@ public class MemoriesActivity extends AppCompatActivity {
             dialog2 = new AlertDialog.Builder(this).create();
             editText2 = new EditText(this);
 
-            dialog2.setTitle("Edit bio");
+            dialog2.setTitle("Add text");
             dialog2.setView(editText2);
 
             dialog2.setButton(DialogInterface.BUTTON_POSITIVE, "Save Changes", new DialogInterface.OnClickListener() {
@@ -146,7 +146,7 @@ public class MemoriesActivity extends AppCompatActivity {
             dialog3 = new AlertDialog.Builder(this).create();
             editText3 = new EditText(this);
 
-            dialog3.setTitle("Edit bio");
+            dialog3.setTitle("Add text");
             dialog3.setView(editText3);
 
             dialog3.setButton(DialogInterface.BUTTON_POSITIVE, "Save Changes", new DialogInterface.OnClickListener() {
