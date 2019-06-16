@@ -12,15 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MapActivity" />
-        <activity android:name=".MemoriesActivity" />
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".GalleryActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".PasswordForgetActivity" />
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".InfoWindowSymbolLayerActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MemoriesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".GalleryActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PasswordForgetActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SignUpActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

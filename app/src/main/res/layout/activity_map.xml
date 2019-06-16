@@ -21,22 +21,25 @@
         android:id="@+id/image_ToolbarProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="@string/description_ToolbarProfileIcon"
         android:onClick="goToProfile"
-        mapbox:layout_constraintStart_toStartOf="parent"
-        mapbox:layout_constraintTop_toTopOf="parent"
+        mapbox:layout_constraintBottom_toBottomOf="parent"
+        mapbox:layout_constraintEnd_toStartOf="@+id/btnShow"
         mapbox:srcCompat="@drawable/settings_profile_icon" />
 
+
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:onClick="goMap2"
-        android:text="Map 2"
-        mapbox:layout_constraintStart_toEndOf="@+id/image_ToolbarProfile"
-        mapbox:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+
+        android:text="Map Style"
+        mapbox:layout_constraintBottom_toBottomOf="parent"
+        mapbox:layout_constraintEnd_toEndOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>

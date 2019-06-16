@@ -8,7 +8,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "HRO",
-        "capital": "Project les met mijn favoriete leraren :)"
+        "capital": "Project les met \nmijn favoriete leraren :)"
       },
       "geometry": {
         "type": "Point",
@@ -18,23 +18,7 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Naast de school",
-        "capital": "Dronken man stond te dansen naast chinese touristen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.482003450393677,
-          51.91760765378882
-        ]
-      }
-    },
+
     {
       "type": "Feature",
       "properties": {
@@ -76,13 +60,83 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Vakantie!",
-        "capital": "Eindelijk klaar met jaar 1 en op vakantie"
+        "capital": "Eindelijk klaar met \njaar 1 en op vakantie"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -40.30840873718262,
           -20.301727053852865
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Rome",
+        "capital": "Het Colosseum gezien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48321533203125,
+          41.902277040963696
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Rome",
+        "capital": "Het Colosseum gezien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48321533203125,
+          41.902277040963696
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Parijs",
+        "capital": "Selfie bij de Eiffeltoren"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2945, 48.8584
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Het Witte Huis",
+        "capital": "Langs het huis van de \nwerelds bekendste clown geweest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0365, 38.8977
         ]
       }
     }

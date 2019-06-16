@@ -23,7 +23,8 @@
     <string name="text_Location">Location</string>
     <string name="text_Blocked">Blocked</string>
     <string name="text_MyMemories">My Memories</string>
-
+    <string name="text_Memories">Tap to Edit</string>
+    <string name="text_ChoosePhoto">Choose Photo</string>
 
     <!-- Hints -->
     <string name="hint_EmailHint">Enter Email</string>
@@ -107,4 +108,12 @@
     <!-- Infowindow SymbolLayer -->
     <string name="capital">Description: %1$s</string>
     <string name="tap_on_marker_instruction">Tap on a marker</string>
+
+    <!-- menu -->
+    <string name="menu_map_style_streets">Streets</string>
+    <string name="menu_map_style_dark">Dark</string>
+    <string name="menu_map_style_light">Light</string>
+    <string name="menu_map_style_outdoors">Outdoors</string>
+    <string name="menu_map_style_satellite">Satellite</string>
+    <string name="menu_map_style_satellite_streets">Satellite streets</string>
 </resources>

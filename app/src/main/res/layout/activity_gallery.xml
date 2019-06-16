@@ -47,11 +47,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="423dp"
-        android:layout_height="413dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_BackgroundRectangle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/view_BackgroundRectangle"
         app:layout_constraintTop_toTopOf="@+id/view_BackgroundRectangle"
