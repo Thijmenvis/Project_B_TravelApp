@@ -2,6 +2,7 @@ package com.example.prototype;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
@@ -14,6 +15,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MemoriesActivity extends AppCompatActivity {
+
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editor;
 
     Button button;
     Button button2;
@@ -33,11 +37,17 @@ public class MemoriesActivity extends AppCompatActivity {
     EditText editText;
     EditText editText2;
     EditText editText3;
+    int whichPhoto;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_memories);
+
+            sharedPreferences = getSharedPreferences("app",MODE_PRIVATE);
+            editor = sharedPreferences.edit();
+            whichPhoto = sharedPreferences.getInt("WP", 1);
+            editor.apply();
 
             imageView = (ImageView) findViewById(R.id.image_Placeholder1);
             button = (Button) findViewById(R.id.btn_choosphoto);
@@ -45,6 +55,8 @@ public class MemoriesActivity extends AppCompatActivity {
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    editor.putInt("WP", whichPhoto = 1);
+                    editor.apply();
                     openGallery();
 
                 }
@@ -58,6 +70,8 @@ public class MemoriesActivity extends AppCompatActivity {
             button2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    editor.putInt("WP", whichPhoto = 2);
+                    editor.apply();
                     openGallery();
 
                 }
@@ -71,6 +85,8 @@ public class MemoriesActivity extends AppCompatActivity {
             button3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    editor.putInt("WP", whichPhoto = 3);
+                    editor.apply();
                     openGallery();
 
                 }
@@ -162,10 +178,15 @@ public class MemoriesActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode, resultCode, data);
-        if(resultCode == RESULT_OK && requestCode == PICK_IMAGE){
+        if(resultCode == RESULT_OK && requestCode == PICK_IMAGE && whichPhoto == 1) {
             imageURI = data.getData();
             imageView.setImageURI(imageURI);
-
+        }
+        else if(resultCode == RESULT_OK && requestCode == PICK_IMAGE && whichPhoto == 2){
+            imageView2.setImageURI(imageURI);
+        }
+        else if(resultCode == RESULT_OK && requestCode == PICK_IMAGE && whichPhoto == 3){
+            imageView3.setImageURI(imageURI);
         }
     }
 }
